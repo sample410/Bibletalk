@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap);
+
+.slide-fade-enter-active {
+	transition: all 1s ease;
+}
+.slide-fade-leave-active {
+	transition: all 1s ease;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+	transform: translateX(-100vw);
+	opacity: 0;
+}
+
+
+@keyframes bluehost-spinner {
+0% {
+		transform: translate3d(0, 0, 0) rotate(0deg);
+}
+100% {
+		transform: translate3d(0, 0, 0) rotate(360deg);
+}
+}
+.bluehost-spinner {
+	display: inline-block;
+	margin-left: 16px;
+	position: relative;
+}
+.bluehost-spinner::before {
+	animation: 1.5s linear infinite bluehost-spinner;
+	animation-play-state: inherit;
+	border: solid 2px transparent;
+	border-bottom-color: inherit;
+	border-radius: 50%;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: translate3d(0, 0, 0);
+	will-change: transform;
+}
+
+.bluehost-site-migrator .modal p,.bluehost-site-migrator .page.--check-compatibility .content .message{font-family:"Open Sans";font-size:14px;line-height:19px;font-weight:400}.bluehost-site-migrator .button,.bluehost-site-migrator .button-secondary{font-family:"Open Sans";font-size:16px;line-height:22px;font-weight:400}.bluehost-site-migrator p,.bluehost-site-migrator ul{font-family:"Open Sans";font-size:18px;line-height:28px;font-weight:400}.bluehost-site-migrator h2{font-family:"Open Sans";font-size:32px;line-height:43px;font-weight:300}.bluehost-site-migrator h1{font-family:"Open Sans";font-size:50px;line-height:78px;font-weight:700}#wpwrap{display:flex;flex-direction:column;background:#E3F6FA !important}#wpcontent{padding-left:0;flex-grow:1;display:flex;flex-direction:column}#wpbody{flex-grow:1;display:flex;flex-direction:column}#wpbody-content{padding:0;flex-grow:1;display:flex;flex-direction:column}.bluehost-site-migrator{flex-grow:1;display:flex;flex-direction:column;padding:0;margin:0;height:100%}.bluehost-site-migrator h1{margin:0;padding:0}.bluehost-site-migrator h2{margin:0;padding:0}.bluehost-site-migrator img{width:100%;max-width:100%}.bluehost-site-migrator p{margin-bottom:16px}.bluehost-site-migrator ul{list-style:none;margin-top:0}.bluehost-site-migrator ul li{vertical-align:middle}.bluehost-site-migrator ul li::before{content:"\2022";color:#3575D3;font-weight:bold;display:inline-block;font-size:30px;width:1em;line-height:normal}.bluehost-site-migrator .button,.bluehost-site-migrator .button-secondary{background-color:#3575D3;color:#fff;border-radius:38px;border:none;box-shadow:none;padding:14px 32px;margin-top:20px;min-height:50px;font-weight:500}.bluehost-site-migrator .button:active,.bluehost-site-migrator .button-secondary:active,.bluehost-site-migrator .button:focus,.bluehost-site-migrator .button-secondary:focus,.bluehost-site-migrator .button:hover,.bluehost-site-migrator .button-secondary:hover{background-color:#3575D3;color:#fff;box-shadow:none}.bluehost-site-migrator .button.--is-disabled,.bluehost-site-migrator .--is-disabled.button-secondary{background-color:#5E91DB;pointer-events:none;box-shadow:none}.bluehost-site-migrator .button-secondary{background-color:#fff;color:#3575D3;border:1px solid #3575D3}.bluehost-site-migrator .button-secondary:active,.bluehost-site-migrator .button-secondary:focus,.bluehost-site-migrator .button-secondary:hover{background-color:#fff;color:#3575D3;border:1px solid #3575D3}.bluehost-site-migrator .modal{background-color:#fff;padding:32px 71px;text-align:center;border-radius:10px;width:48vw;max-width:778px;box-sizing:border-box}@keyframes move{0%{background-position:0 0}100%{background-position:50px 50px}}.bluehost-site-migrator .progress-bar{background-color:#E8F8FB;width:100%;height:16px;border-radius:8px;margin:23px 0 12px 0}.bluehost-site-migrator .progress-bar__progress{background-color:#5E91DB;border-radius:8px;height:16px;max-width:100%}.bluehost-site-migrator .progress-bar.--animated .progress-bar__progress{background-image:linear-gradient(center bottom, #2bc253 37%, #54f054 69%);box-shadow:inset 0 2px 9px rgba(255,255,255,0.3),inset 0 -2px 6px rgba(0,0,0,0.4);position:relative;overflow:hidden}.bluehost-site-migrator .progress-bar.--animated .progress-bar__progress:after{content:"";position:absolute;top:0;left:0;bottom:0;right:0;background-image:linear-gradient(-45deg, rgba(255,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, transparent 75%, transparent);z-index:1;background-size:50px 50px;animation:move 2s linear infinite;overflow:hidden}.bluehost-site-migrator .text-disabled{color:#939393}.bluehost-site-migrator .page.--check-compatibility{background-color:#E3F6FA;display:grid;grid-template-columns:auto minmax(400px, 1fr);grid-template-rows:auto 1fr;grid-template-areas:"content image" "footer footer";min-height:calc(100vh - 32px)}.bluehost-site-migrator .page.--check-compatibility .content{grid-area:content;padding:48px 0 48px 48px}.bluehost-site-migrator .page.--check-compatibility .content .message{display:block;margin-top:16px;text-align:center;width:245px}.bluehost-site-migrator .page.--check-compatibility img{grid-area:image;place-self:end;margin-top:48px;transform:translateY(2px)}.bluehost-site-migrator .page.--check-compatibility .footer{grid-area:footer;background-color:#fff;align-self:stretch}@media screen and (max-width: 1172px){.bluehost-site-migrator .page.--check-compatibility{grid-template-areas:"content content" "footer image"}.bluehost-site-migrator .page.--check-compatibility img{max-width:400px}}.bluehost-site-migrator .page.--compatible{background-color:#E3F6FA;display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 100px 1fr;min-height:calc(100vh - 32px)}.bluehost-site-migrator .page.--compatible .content{grid-area:1 / 1 / 1 / 3;padding:48px 0 48px 48px}.bluehost-site-migrator .page.--compatible .content p{max-width:445px}.bluehost-site-migrator .page.--compatible img{grid-area:1 / 2 / 3 / 4;margin-top:48px;place-self:end;z-index:1}.bluehost-site-migrator .page.--compatible .footer{background-color:#fff;grid-area:2 / 1 / 4 / 4}@media screen and (max-width: 1230px){.bluehost-site-migrator .page.--compatible{grid-template-rows:auto auto minmax(100px, 1fr)}.bluehost-site-migrator .page.--compatible .content{grid-area:1 / 1 / 2 / 4;padding-right:48px}.bluehost-site-migrator .page.--compatible img{grid-area:2 / 1 / 3 / 4;transform:translateY(34px);max-width:600px;margin-top:0}.bluehost-site-migrator .page.--compatible .footer{grid-area:3 / 1 / 4 / 4;color:white}}.bluehost-site-migrator .page.--complete{background-color:#E3F6FA;display:grid;grid-template-columns:1fr;grid-template-rows:auto auto 1fr;min-height:calc(100vh - 32px)}.bluehost-site-migrator .page.--complete .content{grid-area:1 / 1 / 2 / 2;justify-self:center;display:flex;flex-direction:column;align-items:center;text-align:center;padding:48px 0 0 0}.bluehost-site-migrator .page.--complete .content p{max-width:462px}.bluehost-site-migrator .page.--complete .content .button,.bluehost-site-migrator .page.--complete .content .button-secondary{margin-top:40px}.bluehost-site-migrator .page.--complete img{margin-top:48px;flex-grow:1;object-fit:contain;object-position:bottom;margin-bottom:-100px;z-index:1}.bluehost-site-migrator .page.--complete .footer{background-color:#fff;grid-area:3 / 1 / 4 / 2}.bluehost-site-migrator .page.--error{background-color:#E3F6FA;display:grid;grid-template-rows:auto auto minmax(170px, 1fr);grid-template-columns:1fr;min-height:calc(100vh - 32px)}.bluehost-site-migrator .page.--error .content{grid-area:1 / 1 / 2 / 2;padding:48px;text-align:center}.bluehost-site-migrator .page.--error img{grid-area:2 / 1 / 3 / 2;max-width:960px;justify-self:center;transform:translateY(50px)}.bluehost-site-migrator .page.--error .footer{grid-area:3 / 1 / 4 / 2;background-color:#fff}.bluehost-site-migrator .page.--incompatible{background-color:#E3F6FA;display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 100px 1fr;min-height:calc(100vh - 32px)}.bluehost-site-migrator .page.--incompatible .content{grid-area:1 / 1 / 1 / 3;padding:48px 0 48px 48px}.bluehost-site-migrator .page.--incompatible .content p{max-width:445px}.bluehost-site-migrator .page.--incompatible img{grid-area:1 / 2 / 3 / 4;margin-top:48px;place-self:end;z-index:1}.bluehost-site-migrator .page.--incompatible .footer{background-color:#fff;grid-area:2 / 1 / 4 / 4}@media screen and (max-width: 1230px){.bluehost-site-migrator .page.--incompatible{grid-template-rows:auto auto minmax(100px, 1fr)}.bluehost-site-migrator .page.--incompatible .content{grid-area:1 / 1 / 2 / 4;padding-right:48px}.bluehost-site-migrator .page.--incompatible img{grid-area:2 / 1 / 3 / 4;transform:translateY(34px);max-width:600px;margin-top:0}.bluehost-site-migrator .page.--incompatible .footer{grid-area:3 / 1 / 4 / 4;color:white}}.bluehost-site-migrator .page.--transfer{background-color:#E3F6FA;display:grid;grid-template-columns:1fr;grid-template-rows:1fr 100px;height:calc(100vh - 32px)}.bluehost-site-migrator .page.--transfer .content{grid-area:1 / 1 / 2 / 2;place-self:center;z-index:1;text-align:center;transform:translateY(-90px)}.bluehost-site-migrator .page.--transfer .content h2{margin-bottom:48px}.bluehost-site-migrator .page.--transfer img{grid-area:1 / 1 / 2 / 2;place-self:end;max-width:700px;transform:translateY(30px)}.bluehost-site-migrator .page.--transfer .footer{background-color:#fff}
+
+
+/*# sourceMappingURL=app.min.css.map*/
